@@ -49,7 +49,8 @@ aside {
     grid-area: as;
 }
 aside img {
-    width: 60%;
+    width: 100%;
+    height: auto;
     border: 5px solid red;
 }
 
@@ -69,7 +70,7 @@ nav ul li a:hover {
 }
 
 article {
-    margin: 10px;
+    margin-left: 30px;
     grid-area: ar;
 }
 
@@ -82,7 +83,9 @@ article h2 {
 }
 
 article img {
-    
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 footer {
